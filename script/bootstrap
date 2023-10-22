@@ -1,6 +1,6 @@
 #!/bin/sh
-
+chmod -R 777 .
 set -e
-chmod -R 777 . 
+
 gem install bundler
 bundle install
