@@ -9,7 +9,9 @@ layout: default
 
 # The World Map
 
-The world map has always been an important part of role playing games. It wasn't just a way of allowing your journey to span entire continents without having everything to scale, it gave you freedom to explore. While many games have tried to replace the world map with an open world, small instanced levels, forced progression or even a menu screen, they all have their limitations. They do not have the impact of stepping into the world map for the first time and realising that there is so much more to the game than you originally thought.
+The world map has always been an important part of role playing games. It wasn't just a way of allowing your journey to span entire continents without having everything to scale, it gave you freedom to explore.
+
+While many games have tried to replace the world map with an open world, small instanced levels, forced progression or even a menu screen, they all have their limitations. They do not have the impact of stepping into the world map for the first time and realising that there is so much more to the game than you originally thought.
 
 ![Branching](/assets/img/2023-02-03 (11).png)
 
@@ -21,7 +23,7 @@ Spiral Fantasy is designed to take full advantage of the world map. Each block y
 
 # The Progression of Time
 
-The world itself is vast and ever-changing. The full simulation of time, weather and seasons will change what strategies you will be effective in battle, along with the different climates across the world.
+The world itself is vast and ever-changing. The full simulation of time, weather and seasons changes what strategies will be effective in battle, along with the different climates across the world.
 
 ![Branching](/assets/img/2023-02-03 (18).png)
 
