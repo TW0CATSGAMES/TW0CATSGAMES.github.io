@@ -6,7 +6,7 @@ layout: default
 
 [About TW0CATS GAMES](./about.html).
 
-[06/11/2023 01 Perfecting Unity’s Billboard Shader for HD2D - Part 1]({% post_url 2023-11-05-perfecting-unitys_billboard_shader_for_hd2d_01 %})
+[06/11/2023 01 Perfecting Unity’s Billboard Shader for 2D Characters - Part 1]({% post_url 2023-11-05-perfecting-unitys_billboard_shader_for_hd2d_01 %})
 
 # The World Map
 

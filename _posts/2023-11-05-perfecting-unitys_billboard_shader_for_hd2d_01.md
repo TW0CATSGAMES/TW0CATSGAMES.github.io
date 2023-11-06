@@ -1,22 +1,22 @@
 ---
 layout: post
 author: thomas_walker
-title:  "Perfecting Unity’s Billboard Shader for HD2D - Part 1"
+title:  "Perfecting Unity’s Billboard Shader for 2D Characters - Part 1"
 date:   2023-11-06 07:45:00 +0000
 categories: update
 ---
 
-## HD2D
+## From a necessity to an art style
 
 ![Xenogears-(by-The-Dark-Id)/Update%2002](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/25-forehead33.jpg)
 [Xenogears (Squaresoft) (screenshot by The Dark Id)](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
 
-If you grew up with a PS1 or a DS, I’m almost certain that some of your favourite games used 2D characters in a 3D environment. Not only did it give you control of the camera to look for hidden items, it also allowed for much more expressive characters than 3D models could achieve at standard definition.
+If you grew up with a PS1 or a DS, I’m almost certain that some of your favourite games used 2D characters in a 3D environment. Not only did it give you control of the camera to look for hidden items, it also allowed for much more expressive characters than 3D models could achieve at standard definition. However, at the time this was seen as a compromise to make games on the scale RPGs were known for and with limited 3D capabilities. Developers often had to choose whether to use 2D characters in a full 3D environment or 3D characters on a 2D pre-rendered background.
 
 ![Grandia/Update%2028](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/110-067.jpg)
 [Grandia (Game Arts) (screenshot by Edward_Tohr)](https://lparchive.org/Grandia/).
 
-Since then, the art style saw very little use until the release of Octopath Traveller in 2018, which Square Enix described as HD2D. This combined authentic 16/32-bit artwork with modern rendering techniques such as normal maps, dynamic shadows and post-processing.
+Once the hardware allowed for both 3D characters and environments, the art style saw very little use until the release of Octopath Traveller in 2018, which Square Enix coined as HD2D. This combined authentic 16/32-bit artwork with modern rendering techniques such as normal maps, dynamic shadows and post-processing.
 
 ![Octopath-Traveller/Update%2004](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/12-013.jpg)
 [Octopath Traveller (Square Enix) (screenshot by Mega64)](https://lparchive.org/Octopath-Traveller/).
@@ -30,7 +30,7 @@ One of my first experiments with game engines was a 3D recreation of Aliahan, th
 
 ![Billboard0](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/L5H7Ypy.png)
 
-Achieving the HD2D art style in Unity was not as straightforward as I expected. I wanted the characters to have surface normals, shadows, perspective projection and a dissolve effect. Using Unity’s sprite renderer caused issues in a 3D environment due to sorting, especially with transparent effects like water, and does not support normal maps.
+Achieving this art style in Unity was not as straightforward as I expected. I wanted the characters to have surface normals, shadows, perspective projection and a dissolve effect. Using Unity’s sprite renderer caused issues in a 3D environment due to sorting, especially with transparent effects like water, and does not support normal maps.
 
 ![Editor1](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/Editor1.png)
 
