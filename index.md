@@ -12,7 +12,7 @@ layout: default
 
 The world map has always been an important part of role playing games. It wasn't just a way of allowing your journey to span entire continents without having everything to scale, it gave you freedom to explore.
 
-While many games have tried to replace the world map with an open world, small instanced levels, forced progression or even a menu screen, they all have their limitations. They do not have the impact of stepping into the world map for the first time and realising that there is so much more to the game than you originally thought.
+While many games have tried to replace the world map with an open world, small instanced levels, forced progression or even a menu screen, these all have their limitations. They do not have the impact of stepping into the world map for the first time and realising that there is so much more to the game than you originally thought.
 
 ![Branching](/assets/img/2023-02-03 (11).png)
 
