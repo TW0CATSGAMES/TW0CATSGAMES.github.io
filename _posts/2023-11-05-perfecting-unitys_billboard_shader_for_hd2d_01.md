@@ -9,22 +9,22 @@ categories: update
 ## HD2D
 
 ![Xenogears-(by-The-Dark-Id)/Update%2002](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/25-forehead33.jpg)
-[Xenogears by The Dark Id](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
+[Xenogears (Squaresoft) (screenshot by The Dark Id)](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
 
 If you grew up with a PS1 or a DS, I’m almost certain that some of your favourite games used 2D characters in a 3D environment. Not only did it give you control of the camera to look for hidden items, it also allowed for much more expressive characters than 3D models could achieve at standard definition.
 
 ![Grandia/Update%2028](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/110-067.jpg)
-[Grandia by Edward_Tohr](https://lparchive.org/Grandia/).
+[Grandia (Game Arts) (screenshot by Edward_Tohr)](https://lparchive.org/Grandia/).
 
 Since then, the art style saw very little use until the release of Octopath Traveller in 2018, which Square Enix described as HD2D. This combined authentic 16/32-bit artwork with modern rendering techniques such as normal maps, dynamic shadows and post-processing.
 
 ![Octopath-Traveller/Update%2004](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/12-013.jpg)
-[Octopath Traveller by Mega64](https://lparchive.org/Octopath-Traveller/).
+[Octopath Traveller (Square Enix) (screenshot by Mega64)](https://lparchive.org/Octopath-Traveller/).
 
 One of my first experiments with game engines was a 3D recreation of Aliahan, the first town of Dragon Quest III. I couldn’t be happier that it is getting an official HD2D remake. There are a few differences with how I use the art style though. I don’t rely on post-processing effects outside of basic colour correction. While bloom can help simulate the light bleed of CRT displays, the excessive depth of field blur for the tilt-shift effect should be used sparingly, and doesn’t make much sense unless the game is set in a miniature environment like Pikmin.
 
 ![Xenogears-(by-The-Dark-Id)/Update%2009](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/8-dazil17.jpg)
-[Xenogears by The Dark Id](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
+[Xenogears (Squaresoft) (screenshot by The Dark Id)](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
 
 ## Billboards in Unity
 
@@ -38,7 +38,7 @@ The Billboard Renderer is a component that is intended to be used on imposters, 
 
 ![Editor0](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/Editor0.png)
 
-This also gives you the LOD Group component which can be used to fade out the billboard when it is too close or too far from the camera. In this example, the billboard fades out with a dissolve effect if it takes up more than 99% of the height of the screen or less than 1%. You'll also need to set the Object Size to match the height of the billboard. However, if you want more control like being able to fade out the character upon defeat, the LOD Group can be removed and this can be done in the shader instead.
+This also gives you the LOD Group component which can be used to fade out the billboard when it is too close or too far from the camera. In this example, the billboard fades out with a dissolve effect if it takes up more than 99% of the height of the screen or less than 0.1%. You'll also need to set the Object Size to match the height of the billboard. However, if you want more control like being able to fade out the character upon defeat, the LOD Group can be removed and this can be done in the shader instead.
 
 ![Editor3](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/Editor3.png)
 
