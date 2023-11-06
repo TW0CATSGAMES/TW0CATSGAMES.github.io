@@ -23,7 +23,7 @@ email: TW0CATSGAMES@proton.me
 logo: /assets/img/TW0CATSGAMESLTD_alpha.png
 description: Solo developer of Spiral Fantasy
 show_downloads: false
-google_analytics:
+#google_analytics:
 
 # Build settings
 theme: jekyll-theme-minimal
