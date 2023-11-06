@@ -11,12 +11,12 @@ categories: update
 ![Xenogears-(by-The-Dark-Id)/Update%2002](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/25-forehead33.jpg)
 [Xenogears (Squaresoft) (screenshot by The Dark Id)](https://lparchive.org/Xenogears-(by-The-Dark-Id)/).
 
-If you grew up with a PS1 or a DS, I’m almost certain that some of your favourite games used 2D characters in a 3D environment. Not only did it give you control of the camera to look for hidden items, it also allowed for much more expressive characters than 3D models could achieve at standard definition. However, at the time this was seen as a compromise to make games on the scale RPGs were known for and with limited 3D capabilities. Developers often had to choose whether to use 2D characters in a full 3D environment or 3D characters on a 2D pre-rendered background.
+If you grew up with a PS1 or a DS, I’m almost certain that some of your favourite games used 2D characters in a 3D environment. Not only did it give you control of the camera to look for hidden items, it also allowed for much more expressive characters than 3D models could achieve at standard definition.
 
 ![Grandia/Update%2028](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/110-067.jpg)
 [Grandia (Game Arts) (screenshot by Edward_Tohr)](https://lparchive.org/Grandia/).
 
-Once the hardware allowed for both 3D characters and environments, the art style saw very little use until the release of Octopath Traveller in 2018, which Square Enix coined as HD2D. This combined authentic 16/32-bit artwork with modern rendering techniques such as normal maps, dynamic shadows and post-processing.
+However, at the time this was seen as a compromise to make games on the scale RPGs were known for and with limited 3D capabilities. Developers often had to choose whether to use 2D characters in a full 3D environment or 3D characters on a 2D pre-rendered background. Once the hardware allowed for both 3D characters and environments, the art style saw very little use until the release of Octopath Traveller in 2018, which Square Enix coined as HD2D. This combined authentic 16/32-bit artwork with modern rendering techniques such as normal maps, dynamic shadows and post-processing.
 
 ![Octopath-Traveller/Update%2004](/assets/img/2023-11-05-perfecting-unitys_billboard_shader_for_hd2d/12-013.jpg)
 [Octopath Traveller (Square Enix) (screenshot by Mega64)](https://lparchive.org/Octopath-Traveller/).
