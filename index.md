@@ -20,6 +20,8 @@ While many games have tried to replace the world map with an open world, small i
 
 # The Changing Scale of the World
 
+The world of Pangaea belongs to no particular star or galaxy. It drifts throughout the cosmos on its endless interstellar journey. No-one living on Pangaea has ever discovered its true size or shape. Most assume it is round, others argue it is flat, some suggest it is square, and a few believe it to be infinite. All that is known is that it is large enough to attract its own solar system of orbiting stars and planets.
+
 Spiral Fantasy is designed to take full advantage of the world map. Each block you see is actually hundreds of metres across, and when you go into battle you see the world at its true scale. This reveals dense forests, fields of grass and the real form of the monsters.
 
 ![Branching](/assets/img/Battle0.png)
