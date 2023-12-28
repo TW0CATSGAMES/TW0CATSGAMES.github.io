@@ -10,6 +10,8 @@ layout: default
 
 [13/11/2023 02 Perfecting Unity’s Billboard Shader for 2D Characters - Part 2]({% post_url 2023-11-13-perfecting-unitys_billboard_shader_for_2d_characters_02 %})
 
+[28/12/2023 02 Perfecting Unity’s Billboard Shader for 2D Characters - Part 3]({% post_url 2023-12-28-perfecting-unitys_billboard_shader_for_2d_characters_03 %})
+
 # The World Map
 
 The world map has always been an important part of role playing games. It wasn't just a way of allowing your journey to span entire continents without having everything to scale, it gave you freedom to explore.
