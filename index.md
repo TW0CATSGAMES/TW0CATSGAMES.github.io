@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![Branching](/assets/img/SFIV_light_alpha_0.png)
+![Branching](/assets/img/SF_2025_Light_Alpha.png)
 
 [About TW0CATS GAMES](./about.html).
 
